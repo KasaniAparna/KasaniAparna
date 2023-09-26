@@ -1,0 +1,15 @@
+> supports testing on all browser
+> Wait times
+> Paramterized testing
+Integrate Webdriver with tools like testNG and cucumber that enhances the fetaures of selenium webdriver
+> Data driven testing
+> pritoritze test cases
+> pre-condition, post condition
+> reports generation
+
+Because of W3C prootocal with Selenium 4:
+
+> tets cases run faster as there is no need to Encode or decode the scripts
+> Testing is more consistent and works better on croass browser
+> browser specific exception --> now we dont get those with selenium 4
+>No need to download drivers in the system --> webDriver Manager -> it will automatically download each driver and works with all browser
