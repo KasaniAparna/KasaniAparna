@@ -1,0 +1,9 @@
+<suite name="test1" verbose="1">
+<test name="TestCycle1">
+<classes>
+<class name="com.app.TestNGScripts.TestAnnotation"></class>
+<class name="com.app.TestNGScripts.BeforeAfterMethodAnnotations"></class>
+<class name="com.app.TestNGScripts.BeforeAfterClassAnnotations"></class>
+</classes>
+</test>
+</suite>
