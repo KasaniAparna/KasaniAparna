@@ -1,0 +1,33 @@
+package com.app.TDD.demo;
+import java.util.HashMap;
+import java.util.Map;
+public class CourseSearch {
+private Map<String, Integer> getcoursedata() {
+Map<String, Integer> courseMap = new HashMap<>();
+		courseMap.put("selenium", 10);
+		courseMap.put("jenkin", 25);
+		courseMap.put("testng", 20);
+		courseMap.put("java", 50);
+		return courseMap;
+	}
+	public int getCourse(String list) {
+		Map<String, Integer> courseMap = null ;
+		int count =0;
+		
+		if(list.isEmpty())
+		{
+			throw new NullPointerException("List name cannot be empty");
+		}
+		courseMap = getcoursedata();
+		
+		if(!courseMap.containsKey(list))
+		{
+			throw new NullPointerException("List name doesnot exist");
+		}
+		else {
+		count = courseMap.get(list);
+		}
+		return count;
+		
+	}
+}
