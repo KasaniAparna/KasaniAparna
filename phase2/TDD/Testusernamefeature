@@ -1,0 +1,21 @@
+package com.app.TDD.demo;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestUsernamefeature {
+
+	@Test
+	public void UsernameTest()
+	{
+		UsernameCode obj = new UsernameCode();
+		String username ="adminuser";
+		String username1 ="admin/user";
+		String username2 = "admin#user";
+		String username3 = "admin123";
+		Assert.assertTrue(obj.isvalidusername(username));
+		Assert.assertFalse(obj.isvalidusername(username1),"This is not a valid username");
+		Assert.assertFalse(obj.isvalidusername(username2),"This is not a valid username");
+		Assert.assertTrue(obj.isvalidusername(username3));
+	}
+}
