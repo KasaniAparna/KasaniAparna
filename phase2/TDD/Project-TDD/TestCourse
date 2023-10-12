@@ -1,0 +1,44 @@
+package com.app.TDD.demo;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+public class TestCourseSearch {
+	@Test
+	public void findcourse()
+	{
+		String list = "selenium";
+		int ExpectedCourse = 10;
+		CourseSearch ps = new CourseSearch();
+		int count = ps.getCourse(list);
+		System.out.println(count);
+		Assert.assertEquals(count, ExpectedCourse);
+		}
+@Test
+	public void findcourseEmptyInput()
+	{
+		try {
+		String list = "";
+		int ExpectedCourse = 0;
+		CourseSearch ps = new CourseSearch();
+		int count = ps.getCourse(list);
+		}
+		catch(NullPointerException e)
+		{
+			System.out.println("List name cannot be empty");
+		}
+		}
+	
+	@Test
+	public void findcourseInvalidInput()
+	{
+		try {
+		String list = "testng";
+		int Expectedcourse = 20;
+		CourseSearch ps = new CourseSearch();
+		int count = ps.getCourse(list);
+		}
+		catch(NullPointerException e1)
+		{
+			System.out.println("List name doesnot exisit in the list");
+		}
+		}
+   }
