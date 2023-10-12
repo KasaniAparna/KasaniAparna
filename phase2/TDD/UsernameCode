@@ -1,0 +1,13 @@
+package com.app.TDD.demo;
+
+public class UsernameCode {
+ 
+	public boolean isvalidusername(String username) {
+		if(username.contains("/") || (username.contains("#")))
+		{
+			return false;
+		}
+		return true;
+	}
+	
+}
