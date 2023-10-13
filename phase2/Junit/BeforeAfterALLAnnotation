@@ -1,0 +1,40 @@
+package com.app.junitDemo;
+
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+public class BeforeAfterALLAnnotation {
+	static JavaOperations obj;
+	@BeforeAll
+	public  static void init() {
+		System.out.println("Start DB connection");
+		obj = new JavaOperations();
+		System.out.println("Initalization done..");
+	}
+	@AfterAll
+	public static void teardown()
+	{
+		System.out.println("close DB connection");
+	}
+		@Test
+		public void method1()
+
+		{
+		//create an object of a class and then execute
+			
+			System.out.println("Execute the method1 0f code class");
+			
+		}
+		@Test
+		public void method2()
+		{
+		//create an object of a class and then execute
+			
+			System.out.println("Execute the method 2 of code class ");
+			
+		}
+
+}
