@@ -1,0 +1,12 @@
+package com.app.junitDemo;
+
+import org.junit.jupiter.api.Test;
+
+public class TestAnnotation {
+ //change java library if you are not getting option to run junit 
+	@Test
+	public void Method1()
+	{
+		System.out.println("Hello Junit");
+	}
+}
