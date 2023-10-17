@@ -1,0 +1,13 @@
+package GradleProject;
+
+import org.junit.jupiter.api.Test;
+
+public class DemoTest {
+
+	@Test
+	public void GradleDemo()
+	{
+		System.out.println("Gradle demo test");
+	}
+	
+}
