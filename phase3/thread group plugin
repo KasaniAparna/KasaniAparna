@@ -1,0 +1,9 @@
+in options>custom thread plugin >download
+stop and restart jmeter
+add >jp@gc stepping thread group
+add>http request
+add>threads every seconds
+add>hold thread
+it likes in graph
+add>jp@gc ultimat thread group
+view the result
