@@ -1,0 +1,8 @@
+new test plan > name it as increaseload 
+add thread > thread group 
+number of threads is 100 > time > 100 loop > 10
+add > sampler > sampler > HTTP request > name it as google
+in web server > server name is www.google.com
+add > listener > view results tree
+to see the output
+to see the graph > add > sampler > graph results
