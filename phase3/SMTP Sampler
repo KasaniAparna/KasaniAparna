@@ -1,0 +1,4 @@
+Threadgrup> Add > Sampler> SMTP sampler
+Execute the Sampler. The request will fail as username and password is incorrect.
+It is because gmail SMTP server is not allowing third party tools to use it and send emails.
+give message and subject 
