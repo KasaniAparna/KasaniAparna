@@ -1,0 +1,8 @@
+take the junit sampler> add > assertion> response assertion
+in response assertion > select text response 
+add > 1000 > save 
+add > listener>assertion results
+view the output
+again in response assertion > select response message
+add > test successful >save
+view the result
