@@ -1,0 +1,10 @@
+Download the JDBC connector  jar file
+download and extract all files
+In the folder there will be a JDBC connector.jar file
+This Jar file has to be copied and pasted  in your Jmeter folder >lib folder
+After copying the jar file in LIB folder> restart your apache Jmeter (close it and start it again).
+In JMeter> create a Thread group -> Add > Config Element>JDBC connection Configuration
+Add the variable pool name and add DB connection details.
+Thread group >Add the JDBC request > Add the variable name as given in JDBC configuration> Add the query to be executed.
+for this we have to write mysql query for the database url and jdbc driver class.
+select * from movies;
