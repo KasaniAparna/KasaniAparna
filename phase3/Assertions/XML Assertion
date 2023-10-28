@@ -1,0 +1,6 @@
+add> thread>thread group
+add >Xml assertions >http request
+the assertion will check the response of xml
+give server name 
+add> xml assertion
+view the result
