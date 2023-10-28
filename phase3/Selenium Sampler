@@ -1,0 +1,31 @@
+we have to download plugin manager jar file for jmeter and add plugin manager to jmeter
+Download plugins-manager.jar and put it into lib/ext directory, then restart JMeter.
+copy this in jmeter folder > lib > ext folder
+stop and restart jmeter
+in jmeter go to options>we will see plugin 
+click on plugin manager > available plugins > selenium webriver
+appply changes and restart plugin
+after this we can add selenium configuration in jmeter
+1. add the thread group>add config element > select jp@gc chrome
+for jmeter to create a session with your chrome browser,we have to download chromeddriver.exe
+this has to be downloaded from selenium download website
+we have to give the path of chromedriver.exe in Chromedriver config
+download chromeversion is same as google chrome
+https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/118.0.5993.70/win64/chromedriver-win64.zip> download this
+extract the contents of zip folder
+copy the path of the exe folder
+paste it in jmeter and add chromedriver.exe
+add > sampler>seleniumwebdriver
+add www.google.com
+and view the result tree
+WDS.sampleResult.sampleStart()
+
+WDS.browser.get("https://tutorialsninja.com/demo/")
+		WDS.browser.findElement(org.openqa.selenium.By.linkText("My Account")).click()
+		WDS.browser.findElement(org.openqa.selenium.By.linkText("Login")).click();
+		WDS.browser.findElement(org.openqa.selenium.By.id("input-email")).sendKeys("seleniumdemo@@gmail.com")
+		WDS.browser.findElement(org.openqa.selenium.By.id("input-password")).sendKeys("123456")
+		WDS.browser.findElement(org.openqa.selenium.By.xpath("//input[@value='Login']")).click()
+		
+WDS.sampleResult.sampleEnd()
+
