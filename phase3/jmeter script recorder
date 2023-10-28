@@ -1,0 +1,21 @@
+To do this, first we have to set up proxy server on our laptop
+Go to laptop search box >go to proxy settings
+We will go to manual proxy setup -> click on set up 
+click on use a proxy server -> click on Save button.Now go to JMeter and add the recording elements:
+Right click on Test Plan > Add > Non test elements >Https Test Script Recorder
+Add the recording controller to the thread group
+
+Right click on thread group > add > logic controllers > Recording controller
+Select the recording controller in HTTP Tets Script recorder.
+Click on Start button >click ok on the certificate adding request
+Click on advance> click on proceed to internetheroku app
+Record transaction tologinto the application
+After click on login button, create anew transaction as logout
+Click on logout button
+Click on stop button on transaction control.
+Now under recording controller, you will see the recored scripts
+Right click and remove the request which have server name or ip and gstatic.com
+Now move the recorded transactions in Simple Controller
+Simple controller is just like a folder that holds your test scripts
+Add a Listeners to the thread group
+ThreadGroupAdd -> Listners> View results tree
