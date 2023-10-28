@@ -1,0 +1,26 @@
+Create a Java package in eclipse> create a Junit class and add Junit test annotation create a junit method.
+Add Junit 4 library in the java project
+Select Junit 4 library
+Next we have to export this Porject of junit into a Jar file, so that jmeter can execute it.
+Right click on project>select export > select Jar
+Press next and select the export destination > Click on browse>the path with jmeter/lib/junit folder -> C:\Users\Aparn\Downloads\apache-jmeter-5.6.2\apache-jmeter-5.6.2\lib\junit
+Click on save and finish button.
+Close and restart jmeter.
+ThreadGroup> add> junit request sampler>in the smapler select below details
+add >listener>view results tree.
+junit program:
+package jmeterdemo;
+
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class JmeterJunitDemoTest {
+
+	@Test
+	public void testdemo1()
+	{
+		System.out.println("Junit test case");
+		Assert.assertTrue(false);
+	}
+}
