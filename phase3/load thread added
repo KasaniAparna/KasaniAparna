@@ -1,0 +1,7 @@
+new test plan > nae it as load 
+add thread > thread group 
+number of threads is 1 > time > 1 loop > 1
+add > sampler > sampler > HTTP request > name it as google
+in web server > server name is www.google.com
+add > listener > view results tree
+to see the output
