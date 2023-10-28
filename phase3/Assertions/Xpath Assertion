@@ -1,0 +1,9 @@
+checks for xml availability in the response
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+we can check if we have xpath like this
+view the result
