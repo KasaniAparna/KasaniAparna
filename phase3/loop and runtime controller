@@ -1,0 +1,12 @@
+Create 3 simple controllers and place you samples in each of the controller
+Now we have the thread group with Loop count as 1
+So all transaction by default will run only once with 1 user
+But lets say in the entire testing I want to run HomePage transaction 3 times and rest all transaction should run once>then we can use loop Controller
+Loop controller> run a transaction multiple times
+
+We can change simple controller to Loop controller and loop count for that transaction
+Now add the runtime controller to thread group
+Disbale the lopp controller 
+Copy the homepage sampler in Runtime controller 
+In runtime controller> give runtime = 10 sec > this sample is going to execute continuously for 10 seconds
+
