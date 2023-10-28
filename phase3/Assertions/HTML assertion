@@ -1,0 +1,7 @@
+it captures error and warnings on jmeter page
+it can put those error in file
+create a thread group > add > http request
+add > html assertion
+browse for the filename >create a folder> filename
+C:\Users\Aparn\Desktop\Phase3-JmeterTesting\htmlwarnins\errors.txt>filename
+view the result it shows an warning
