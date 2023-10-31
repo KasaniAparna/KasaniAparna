@@ -1,0 +1,19 @@
+First go to login page, eneter username and password
+https://the-internet.herokuapp.com/login
+Go to below link,
+https://the-internet.herokuapp.com/
+Click on first link
+Go to below link,
+https://the-internet.herokuapp.com/
+Click on second link
+Go to below link,
+https://the-internet.herokuapp.com/
+Click on third link
+Go to this page and click on logout button
+https://the-internet.herokuapp.com/login
+Place your samplers in Simple and Switch controller
+Give Switch value as one of the sampler. 
+Login  sample link1-A/btets will run  logout will run
+Interleave Controller:
+Precondition -> test1, test2, test3  post condition
+view the result in view results tree
