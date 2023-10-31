@@ -1,0 +1,10 @@
+add>thread>threadgroup
+thread>http request
+thread>regular expression extractor
+give blazedemo.com
+give the values in regular expression extractor
+thread>logiccontroller>foreach controller
+give the values in it
+foreach controller>jp@gc-dummysampler
+give the values in it
+view the result
