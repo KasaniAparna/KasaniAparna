@@ -1,0 +1,6 @@
+add>non test fragment>http script recorder
+add>thread>threadgroup
+add>recording controller
+use $ to define variable
+add>userdefine variable
+view result
