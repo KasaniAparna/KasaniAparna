@@ -1,0 +1,6 @@
+add>thread>threadgroup
+thread>randomorder controller
+pre-condition -login -> test3, tes1, test2 -> postcondition - login
+pre-condition -login -> test1, tes3, test2 -> postcondition - login
+pre-condition -login -> test3, tes2, test1 -> postcondition - login
+view the results
