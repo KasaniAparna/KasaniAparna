@@ -1,0 +1,12 @@
+download filezila 
+create a file in desktop and upload it in filezila
+download it 
+in jmeter,add>thread>threadgroup
+add>ftp request
+give the server name-ftp.dlptest.com
+remote file-/Aparna.txt
+localfile-C:\Users\Aparn\OneDrive\Desktop\Phase3-JmeterTesting\Aparna.txt
+
+username-dlpuser
+give the password
+view the result
