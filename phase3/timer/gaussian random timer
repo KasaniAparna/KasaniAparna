@@ -1,0 +1,8 @@
+add>thread>threadgroup
+  add>http request three times
+1.blazedemo${__(yyyymmddhhmmss)}
+2.heroku${__(yyyymmddhhmmss)}
+3.herokulogin${__(yyyymmddhhmmss)}
+add gaussian random timer >give time
+add>summary report
+view the result 
