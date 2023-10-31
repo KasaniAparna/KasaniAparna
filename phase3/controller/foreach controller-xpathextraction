@@ -1,0 +1,9 @@
+add>thread>threadgroup
+add>http request
+give the server name
+add>xpath extractor
+give xpath query
+add>foreach controller
+add>http request
+give the server name
+view the results
