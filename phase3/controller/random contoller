@@ -1,0 +1,6 @@
+add>thread>threadgroup
+thread>logic controller>random controller
+pre-condition -login -> test3 -> postcondition - login
+pre-condition -login -> test1 -> postcondition - login
+pre-condition -login -> test2 -> postcondition - login
+view the result
