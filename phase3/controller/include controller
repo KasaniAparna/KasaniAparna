@@ -1,0 +1,11 @@
+add>thread>threadgroup
+add>include controller in thread
+for include controller filename
+crete another testplan
+add>testfragment
+add>http request
+give the server name 
+save this in jmx
+browse in include controller filename 
+paste it 
+view the result
