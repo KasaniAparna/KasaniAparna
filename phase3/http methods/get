@@ -1,0 +1,4 @@
+
+Fetch the api key and add in request
+clcik on generate Api key and generate a new apikey. Pls copy the key in a notepad, as you will not be able to see the key again
+Now add the api key under Headers tab on the request
