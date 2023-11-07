@@ -1,0 +1,14 @@
+Download nodejs plugin in Jenkins
+Now go to collection runner
+Click on configure command
+Now copy the entire script form postman
+Copy this pipeline in Jenkins Job
+Click on Pipeline syntax
+Here select windows batch script
+Now go to jenkisn job.. remove the sh command in first stage and add the bta command
+Get the api key from postman
+Go to Jenkins pipeline code
+Stage 2 -> change sh to bat
+And replace $POSTMAN_API_KEY to the actual postman apikey value
+
+
