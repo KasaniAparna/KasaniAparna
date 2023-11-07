@@ -1,0 +1,7 @@
+click on collection we have three dots
+add request
+in request we have methods select get method
+give url-https://reqres.in/api/users?page=2
+https://reqres.in-url
+/api/users-path parameters
+?page=2-query parameters
