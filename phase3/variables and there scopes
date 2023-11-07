@@ -1,0 +1,6 @@
+Create a collection  create a new request  get methods openweather API
+Add the variable in request and select the environment
+give the url-{{Base_URL}}data/2.5/weather?q={{City}}&appid={{apikey}}
+in prerequest scripts-pm.environment.set("City", "London");
+Environment variables-{{Base_URL}}/data/2.5/weather?q={{City}}&appid={{apikey}}
+Change environment to QA
