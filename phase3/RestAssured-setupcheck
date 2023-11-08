@@ -1,0 +1,20 @@
+package restassuredScripts;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class Script001SetupCheck {
+
+	@Test
+	public void setupCheck()
+	{
+		Response res = RestAssured.get("https://reqres.in/api/users/2");//send request
+		System.out.println(res.asString());//covert to string to understand response
+		System.out.println(res.getStatusCode());
+		
+		
+	}
+	
+}
