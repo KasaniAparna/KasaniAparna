@@ -1,0 +1,20 @@
+package restassuredScripts;
+import static io.restassured.RestAssured.given;
+
+
+import org.testng.annotations.Test;
+
+import io.restassured.response.Response;
+
+public class Script008GITHUBBarriertoken {
+@Test
+public void Authorization_barriertoken() {
+	Response res = given().baseUri("https://api.github.com")
+	.basePath("/user/repos")
+	.header("Authorization","Bearer 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")
+	.when().get()
+	.then().statusCode(200)
+	.extract().response();
+	res.prettyPrint();
+}
+}
