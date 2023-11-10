@@ -6,7 +6,7 @@ public class Loggingmethods {
 @Test
 public void loggingRestassured()
 {
-	String PMapikey = "PMAK-65447da1aaa840003fd5dfce-2192e7b91dc4c7eec7c357670df89c7b16\\r\\n";
+	String PMapikey = "PMAK-65447da1aaa840003fd5dfce-2192e7b91dc4c7eec7c357670df89c7b16";
 	given().baseUri("https://api.postman.com")
 	.basePath("/workspaces")
 	.header("X-API-Key", PMapikey)
